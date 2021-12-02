@@ -1,9 +1,12 @@
+package days;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Day1 {
+public class Day1 implements Day {
+    @Override
     public void run0() {
         try (BufferedReader br = new BufferedReader(new FileReader(new File("inputs/day1.txt")))) {
             String item;
@@ -21,6 +24,7 @@ public class Day1 {
         }
     }
 
+    @Override
     public void run1() {
         try (BufferedReader br = new BufferedReader(new FileReader(new File("inputs/day1.txt")))) {
             String item;
