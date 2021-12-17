@@ -1,8 +1,8 @@
-import days.Day15;
+import days.Day17;
 
 public class Main {
 
     public static void main(String[] args) {
-        (new Day15()).run1();
+        (new Day17()).run1();
     }
 }
